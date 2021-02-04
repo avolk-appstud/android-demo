@@ -2,12 +2,45 @@ ext.versions = [:]
 def versions = [:]
 
 versions.kotlin = "1.4.21"
+versions.navigation = '2.3.2'
+versions.appcompat = '1.2.0'
+versions.constraintLayout = '2.0.4'
+versions.corektx = '1.3.2'
+
+//Tools
+versions.moshi = '1.11.0'
+versions.koin = '2.2.1'
+versions.mockito = "3.7.7"
+versions.ktlint = '0.34.2'
+versions.dokka = '0.9.18'
 
 //Network
 versions.retrofit = "2.9.0"
-versions.okhttp = "4.9.0"
 versions.rxjava2 = "2.2.20"
 versions.rxkotlin = "2.4.0"
 versions.rxandroid = "2.1.1"
+versions.okhttp = "4.9.0"
+
+//Analytics
+versions.firebase = "26.0.0"
+
+//Tests
+versions.junit = "4.13.1"
+versions.legacySupport = "1.0.0"
+versions.sonar = "2.6.2"
+versions.jacoco = "0.8.1"
+versions.androidxTest = '1.2.0'
+versions.testRunner = '1.3.0'
+versions.testRules = '1.3.0'
+versions.espresso = '3.3.0'
+
+//Libraries
+versions.timber = '4.7.1'
+versions.wasabeef = '2.2.1'
+versions.picasso = '2.71828'
+versions.anko = '0.10.8'
+versions.sections = '3.2.0'
+versions.material = '1.2.1'
+versions.facebook = '9.0.0' // login
 
 ext.versions = versions

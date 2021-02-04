@@ -1,0 +1,3 @@
+<resources>
+    <string name="no_connectivity_exception_user_message">No network detected, please check your network and wifi settings</string>
+</resources>
